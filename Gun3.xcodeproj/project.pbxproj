@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF849191C81968C003D6ACB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF849181C81968C003D6ACB /* AppDelegate.swift */; };
+		FAF8491B1C81968C003D6ACB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF8491A1C81968C003D6ACB /* ViewController.swift */; };
+		FAF8491E1C81968C003D6ACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF8491C1C81968C003D6ACB /* Main.storyboard */; };
+		FAF849201C81968C003D6ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF8491F1C81968C003D6ACB /* Assets.xcassets */; };
+		FAF849231C81968C003D6ACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF849211C81968C003D6ACB /* LaunchScreen.storyboard */; };
+		FAF8492E1C81968C003D6ACB /* Gun3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF8492D1C81968C003D6ACB /* Gun3Tests.swift */; };
+		FAF849391C81968C003D6ACB /* Gun3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF849381C81968C003D6ACB /* Gun3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF8492A1C81968C003D6ACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF8490D1C81968C003D6ACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF849141C81968C003D6ACB;
+			remoteInfo = Gun3;
+		};
+		FAF849351C81968C003D6ACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF8490D1C81968C003D6ACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF849141C81968C003D6ACB;
+			remoteInfo = Gun3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAF849151C81968C003D6ACB /* Gun3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gun3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF849181C81968C003D6ACB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAF8491A1C81968C003D6ACB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAF8491D1C81968C003D6ACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF8491F1C81968C003D6ACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF849221C81968C003D6ACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAF849241C81968C003D6ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF849291C81968C003D6ACB /* Gun3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gun3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF8492D1C81968C003D6ACB /* Gun3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gun3Tests.swift; sourceTree = "<group>"; };
+		FAF8492F1C81968C003D6ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF849341C81968C003D6ACB /* Gun3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gun3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF849381C81968C003D6ACB /* Gun3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gun3UITests.swift; sourceTree = "<group>"; };
+		FAF8493A1C81968C003D6ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF849121C81968C003D6ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF849261C81968C003D6ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF849311C81968C003D6ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF8490C1C81968C003D6ACB = {
+			isa = PBXGroup;
+			children = (
+				FAF849171C81968C003D6ACB /* Gun3 */,
+				FAF8492C1C81968C003D6ACB /* Gun3Tests */,
+				FAF849371C81968C003D6ACB /* Gun3UITests */,
+				FAF849161C81968C003D6ACB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF849161C81968C003D6ACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF849151C81968C003D6ACB /* Gun3.app */,
+				FAF849291C81968C003D6ACB /* Gun3Tests.xctest */,
+				FAF849341C81968C003D6ACB /* Gun3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF849171C81968C003D6ACB /* Gun3 */ = {
+			isa = PBXGroup;
+			children = (
+				FAF849181C81968C003D6ACB /* AppDelegate.swift */,
+				FAF8491A1C81968C003D6ACB /* ViewController.swift */,
+				FAF8491C1C81968C003D6ACB /* Main.storyboard */,
+				FAF8491F1C81968C003D6ACB /* Assets.xcassets */,
+				FAF849211C81968C003D6ACB /* LaunchScreen.storyboard */,
+				FAF849241C81968C003D6ACB /* Info.plist */,
+			);
+			path = Gun3;
+			sourceTree = "<group>";
+		};
+		FAF8492C1C81968C003D6ACB /* Gun3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF8492D1C81968C003D6ACB /* Gun3Tests.swift */,
+				FAF8492F1C81968C003D6ACB /* Info.plist */,
+			);
+			path = Gun3Tests;
+			sourceTree = "<group>";
+		};
+		FAF849371C81968C003D6ACB /* Gun3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF849381C81968C003D6ACB /* Gun3UITests.swift */,
+				FAF8493A1C81968C003D6ACB /* Info.plist */,
+			);
+			path = Gun3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF849141C81968C003D6ACB /* Gun3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF8493D1C81968C003D6ACB /* Build configuration list for PBXNativeTarget "Gun3" */;
+			buildPhases = (
+				FAF849111C81968C003D6ACB /* Sources */,
+				FAF849121C81968C003D6ACB /* Frameworks */,
+				FAF849131C81968C003D6ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gun3;
+			productName = Gun3;
+			productReference = FAF849151C81968C003D6ACB /* Gun3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF849281C81968C003D6ACB /* Gun3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF849401C81968C003D6ACB /* Build configuration list for PBXNativeTarget "Gun3Tests" */;
+			buildPhases = (
+				FAF849251C81968C003D6ACB /* Sources */,
+				FAF849261C81968C003D6ACB /* Frameworks */,
+				FAF849271C81968C003D6ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF8492B1C81968C003D6ACB /* PBXTargetDependency */,
+			);
+			name = Gun3Tests;
+			productName = Gun3Tests;
+			productReference = FAF849291C81968C003D6ACB /* Gun3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAF849331C81968C003D6ACB /* Gun3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF849431C81968C003D6ACB /* Build configuration list for PBXNativeTarget "Gun3UITests" */;
+			buildPhases = (
+				FAF849301C81968C003D6ACB /* Sources */,
+				FAF849311C81968C003D6ACB /* Frameworks */,
+				FAF849321C81968C003D6ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF849361C81968C003D6ACB /* PBXTargetDependency */,
+			);
+			name = Gun3UITests;
+			productName = Gun3UITests;
+			productReference = FAF849341C81968C003D6ACB /* Gun3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF8490D1C81968C003D6ACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = sgumus;
+				TargetAttributes = {
+					FAF849141C81968C003D6ACB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2R3UAAJ4GL;
+					};
+					FAF849281C81968C003D6ACB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2R3UAAJ4GL;
+						TestTargetID = FAF849141C81968C003D6ACB;
+					};
+					FAF849331C81968C003D6ACB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2R3UAAJ4GL;
+						TestTargetID = FAF849141C81968C003D6ACB;
+					};
+				};
+			};
+			buildConfigurationList = FAF849101C81968C003D6ACB /* Build configuration list for PBXProject "Gun3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF8490C1C81968C003D6ACB;
+			productRefGroup = FAF849161C81968C003D6ACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF849141C81968C003D6ACB /* Gun3 */,
+				FAF849281C81968C003D6ACB /* Gun3Tests */,
+				FAF849331C81968C003D6ACB /* Gun3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF849131C81968C003D6ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF849231C81968C003D6ACB /* LaunchScreen.storyboard in Resources */,
+				FAF849201C81968C003D6ACB /* Assets.xcassets in Resources */,
+				FAF8491E1C81968C003D6ACB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF849271C81968C003D6ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF849321C81968C003D6ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF849111C81968C003D6ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF8491B1C81968C003D6ACB /* ViewController.swift in Sources */,
+				FAF849191C81968C003D6ACB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF849251C81968C003D6ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF8492E1C81968C003D6ACB /* Gun3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF849301C81968C003D6ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF849391C81968C003D6ACB /* Gun3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF8492B1C81968C003D6ACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF849141C81968C003D6ACB /* Gun3 */;
+			targetProxy = FAF8492A1C81968C003D6ACB /* PBXContainerItemProxy */;
+		};
+		FAF849361C81968C003D6ACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF849141C81968C003D6ACB /* Gun3 */;
+			targetProxy = FAF849351C81968C003D6ACB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAF8491C1C81968C003D6ACB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF8491D1C81968C003D6ACB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF849211C81968C003D6ACB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF849221C81968C003D6ACB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF8493B1C81968C003D6ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF8493C1C81968C003D6ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF8493E1C81968C003D6ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gun3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gumus.Gun3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAF8493F1C81968C003D6ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gun3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gumus.Gun3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAF849411C81968C003D6ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Gun3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gumus.Gun3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gun3.app/Gun3";
+			};
+			name = Debug;
+		};
+		FAF849421C81968C003D6ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Gun3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gumus.Gun3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gun3.app/Gun3";
+			};
+			name = Release;
+		};
+		FAF849441C81968C003D6ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Gun3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gumus.Gun3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gun3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FAF849451C81968C003D6ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Gun3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gumus.Gun3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gun3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF849101C81968C003D6ACB /* Build configuration list for PBXProject "Gun3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF8493B1C81968C003D6ACB /* Debug */,
+				FAF8493C1C81968C003D6ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF8493D1C81968C003D6ACB /* Build configuration list for PBXNativeTarget "Gun3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF8493E1C81968C003D6ACB /* Debug */,
+				FAF8493F1C81968C003D6ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAF849401C81968C003D6ACB /* Build configuration list for PBXNativeTarget "Gun3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF849411C81968C003D6ACB /* Debug */,
+				FAF849421C81968C003D6ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAF849431C81968C003D6ACB /* Build configuration list for PBXNativeTarget "Gun3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF849441C81968C003D6ACB /* Debug */,
+				FAF849451C81968C003D6ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF8490D1C81968C003D6ACB /* Project object */;
+}
