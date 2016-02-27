@@ -14,6 +14,8 @@
 		FAF849231C81968C003D6ACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF849211C81968C003D6ACB /* LaunchScreen.storyboard */; };
 		FAF8492E1C81968C003D6ACB /* Gun3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF8492D1C81968C003D6ACB /* Gun3Tests.swift */; };
 		FAF849391C81968C003D6ACB /* Gun3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF849381C81968C003D6ACB /* Gun3UITests.swift */; };
+		FAF849471C81B058003D6ACB /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF849461C81B058003D6ACB /* PlaySoundsViewController.swift */; };
+		FAF8494B1C81B619003D6ACB /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAF8494A1C81B619003D6ACB /* movie_quote.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FAF849341C81968C003D6ACB /* Gun3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gun3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF849381C81968C003D6ACB /* Gun3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gun3UITests.swift; sourceTree = "<group>"; };
 		FAF8493A1C81968C003D6ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF849461C81B058003D6ACB /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		FAF8494A1C81B619003D6ACB /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = movie_quote.mp3; path = "../../../course-materials-master/assets/movie_quote.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		FAF8490C1C81968C003D6ACB = {
 			isa = PBXGroup;
 			children = (
+				FAF8494A1C81B619003D6ACB /* movie_quote.mp3 */,
 				FAF849171C81968C003D6ACB /* Gun3 */,
 				FAF8492C1C81968C003D6ACB /* Gun3Tests */,
 				FAF849371C81968C003D6ACB /* Gun3UITests */,
@@ -103,6 +108,7 @@
 				FAF8491F1C81968C003D6ACB /* Assets.xcassets */,
 				FAF849211C81968C003D6ACB /* LaunchScreen.storyboard */,
 				FAF849241C81968C003D6ACB /* Info.plist */,
+				FAF849461C81B058003D6ACB /* PlaySoundsViewController.swift */,
 			);
 			path = Gun3;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			files = (
 				FAF849231C81968C003D6ACB /* LaunchScreen.storyboard in Resources */,
 				FAF849201C81968C003D6ACB /* Assets.xcassets in Resources */,
+				FAF8494B1C81B619003D6ACB /* movie_quote.mp3 in Resources */,
 				FAF8491E1C81968C003D6ACB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF8491B1C81968C003D6ACB /* ViewController.swift in Sources */,
+				FAF849471C81B058003D6ACB /* PlaySoundsViewController.swift in Sources */,
 				FAF849191C81968C003D6ACB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +493,7 @@
 				FAF8493F1C81968C003D6ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAF849401C81968C003D6ACB /* Build configuration list for PBXNativeTarget "Gun3Tests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +502,7 @@
 				FAF849421C81968C003D6ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAF849431C81968C003D6ACB /* Build configuration list for PBXNativeTarget "Gun3UITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +511,7 @@
 				FAF849451C81968C003D6ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

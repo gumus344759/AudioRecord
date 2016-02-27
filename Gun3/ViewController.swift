@@ -10,6 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+    @IBOutlet weak var stopButton: UIButton!
+    @IBOutlet weak var recordinInProgresing: UILabel!
+    
+    @IBAction func recordingButton(sender: AnyObject) {
+        recordinInProgresing.hidden=false
+        stopButton.hidden=false
+    }
+    @IBAction func stopRecording(sender: AnyObject) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -18,6 +28,10 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        stopButton.hidden=true
     }
 
 
