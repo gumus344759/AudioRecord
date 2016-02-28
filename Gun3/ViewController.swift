@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, AVAudioRecorderDelegate {
 
 
     @IBOutlet weak var stopButton: UIButton!
@@ -32,6 +33,11 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         stopButton.hidden=true
+        
+    }
+    
+    func audioRecorderDidFinishRecording(recorder: AVAudioRecorder, successfully flag: Bool) {
+        <#code#>
     }
 
 

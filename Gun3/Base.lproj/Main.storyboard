@@ -37,7 +37,6 @@
                                 <state key="normal" image="stop@2x~iphone-2"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ucd-BG-fTM"/>
-                                    <segue destination="P04-H2-Dsm" kind="show" id="apc-5v-REV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -85,6 +84,7 @@
                     <connections>
                         <outlet property="recordinInProgresing" destination="puu-ht-04T" id="04N-ok-QI0"/>
                         <outlet property="stopButton" destination="Gbp-HF-Djy" id="Z0V-TI-q2u"/>
+                        <segue destination="P04-H2-Dsm" kind="show" id="ptu-0t-csd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
